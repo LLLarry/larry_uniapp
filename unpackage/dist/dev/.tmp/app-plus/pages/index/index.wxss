@@ -59,7 +59,36 @@
 	/* margin: 27upx 0 48upx; */
 }
 .card .middle {
+	height: 380rpx;
 	margin-top: 48rpx;
+	position: relative;
+}
+.card .middle .play {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform:  translate(-50%,-50%);
+	color: rgba(255,255,255,.85);
+	z-index: 1;
+}
+.card .middle .play_info {
+	position: absolute;
+	right: 10rpx;
+	bottom: 10rpx;
+	z-index: 1;
+	line-height: 50rpx;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	padding: 0 10rpx;
+	border-radius: 50rpx;
+	font-size: 22rpx
+}
+.card .middle .play_info .play_info_item text:first-child {
+	margin-right: 10rpx;
+}
+.card .middle .play>view {
+	font-size: 120rpx;
 }
 .card .middle image {
 	width: 100%;
@@ -103,4 +132,5 @@
 .card .bottom .icon_item:nth-child(2){
 	margin-left: 20rpx;
 }
+
 
