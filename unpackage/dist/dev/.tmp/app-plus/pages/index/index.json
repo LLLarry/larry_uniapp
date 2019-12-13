@@ -1,0 +1,28 @@
+{
+  "titleNView": {
+    "backgroundColor": "#ffffff",
+    "buttons": [
+      {
+        "text": "",
+        "color": "#FF971B",
+        "float": "left",
+        "fontSrc": "/static/font/icon.ttf",
+        "fontSize": "22px"
+      },
+      {
+        "text": "",
+        "color": "#333333",
+        "float": "right",
+        "fontSrc": "/static/font/icon.ttf",
+        "fontSize": "22px"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#F7F7F7",
+      "borderRadius": "4px",
+      "placeholder": "搜索糗事",
+      "placeholderColor": "#999999"
+    }
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,106 @@
+
+.index {
+}
+.card {
+	padding: 24rpx;
+	/* background-color: #f5f7fa; */
+	border-bottom: 2rpx solid #eee;
+}
+.card .top{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-bottom: 27rpx;
+}
+.card .top .userInfo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.card .top .userInfo image {
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 100%;
+}
+.card .top .userInfo text{
+	color: #999999;
+	margin-left: 10rpx;
+}
+.card .top  .add {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: #000;
+	background-color: #f4f4f4;
+	padding: 5rpx 15rpx;
+	border-radius: 4rpx;
+}
+.card .title {
+	font-size: 32rpx;
+	color: #000;
+	/* margin: 27upx 0 48upx; */
+}
+.card .middle {
+	margin-top: 48rpx;
+}
+.card .middle image {
+	width: 100%;
+	height: 380rpx;
+	border-radius: 10rpx;
+}
+.card .bottom{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 24rpx 0;
+}
+.card .bottom>view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.card .bottom .icon_item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.card .bottom .icon_item>view {
+	color: #d5d5d5;
+}
+.card .bottom .icon_item>view:nth-child(1) {
+	margin-right: 15rpx;
+}
+.card .bottom .icon_item:nth-child(2){
+	margin-left: 20rpx;
+}
+
