@@ -1,0 +1,1 @@
+<view class="tabBar_swiper"><scroll-view class="scroll-view" scroll-x="{{true}}"><block wx:for="{{tabBarList}}" wx:for-item="item" wx:for-index="i" wx:key="id"><view data-event-opts="{{[['tap',[['toggleItem',[i]]]]]}}" class="{{['scroll-view-item',(i==activeIndex)?'active':'']}}" bindtap="__e"><view class="name">{{item.name}}</view></view></block></scroll-view></view>

@@ -33,9 +33,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 /* 4 */
-/*!*****************************************************!*\
-  !*** C:/Users/Acer/Desktop/larry_uniapp/pages.json ***!
-  \*****************************************************/
+/*!****************************************!*\
+  !*** E:/仿糗事百科/larry_uniapp/pages.json ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -65,20 +65,20 @@ eval("module.exports = {\"_from\":\"@dcloudio/uni-stat@^2.0.0-alpha-244201911280
 
 /***/ }),
 /* 7 */
-/*!**********************************************************************!*\
-  !*** C:/Users/Acer/Desktop/larry_uniapp/pages.json?{"type":"style"} ***!
-  \**********************************************************************/
+/*!*********************************************************!*\
+  !*** E:/仿糗事百科/larry_uniapp/pages.json?{"type":"style"} ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default = { \"pages\": { \"pages/index/index\": { \"titleNView\": { \"backgroundColor\": \"#ffffff\", \"buttons\": [{ \"text\": \"\", \"color\": \"#FF971B\", \"float\": \"left\", \"fontSrc\": \"/static/font/icon.ttf\", \"fontSize\": \"22px\" }, { \"text\": \"\", \"color\": \"#333333\", \"float\": \"right\", \"fontSrc\": \"/static/font/icon.ttf\", \"fontSize\": \"22px\" }], \"searchInput\": { \"backgroundColor\": \"#F7F7F7\", \"borderRadius\": \"4px\", \"placeholder\": \"搜索糗事\", \"placeholderColor\": \"#999999\" } } }, \"pages/info/info\": {} }, \"globalStyle\": { \"navigationBarTextStyle\": \"black\", \"navigationBarTitleText\": \"糗事百科\", \"navigationBarBackgroundColor\": \"#F8F8F8\", \"backgroundColor\": \"#F8F8F8\" } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJzR0FBZSxFQUFDLFNBQVEsRUFBQyxxQkFBb0IsRUFBQyxjQUFhLEVBQUMsbUJBQWtCLFNBQW5CLEVBQTZCLFdBQVUsQ0FBQyxFQUFDLFFBQU8sR0FBUixFQUFZLFNBQVEsU0FBcEIsRUFBOEIsU0FBUSxNQUF0QyxFQUE2QyxXQUFVLHVCQUF2RCxFQUErRSxZQUFXLE1BQTFGLEVBQUQsRUFBbUcsRUFBQyxRQUFPLEdBQVIsRUFBWSxTQUFRLFNBQXBCLEVBQThCLFNBQVEsT0FBdEMsRUFBOEMsV0FBVSx1QkFBeEQsRUFBZ0YsWUFBVyxNQUEzRixFQUFuRyxDQUF2QyxFQUE4TyxlQUFjLEVBQUMsbUJBQWtCLFNBQW5CLEVBQTZCLGdCQUFlLEtBQTVDLEVBQWtELGVBQWMsTUFBaEUsRUFBdUUsb0JBQW1CLFNBQTFGLEVBQTVQLEVBQWQsRUFBckIsRUFBc1ksbUJBQWtCLEVBQXhaLEVBQVQsRUFBcWEsZUFBYyxFQUFDLDBCQUF5QixPQUExQixFQUFrQywwQkFBeUIsTUFBM0QsRUFBa0UsZ0NBQStCLFNBQWpHLEVBQTJHLG1CQUFrQixTQUE3SCxFQUFuYixFIiwiZmlsZSI6IjcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJwYWdlc1wiOntcInBhZ2VzL2luZGV4L2luZGV4XCI6e1widGl0bGVOVmlld1wiOntcImJhY2tncm91bmRDb2xvclwiOlwiI2ZmZmZmZlwiLFwiYnV0dG9uc1wiOlt7XCJ0ZXh0XCI6XCLumIlcIixcImNvbG9yXCI6XCIjRkY5NzFCXCIsXCJmbG9hdFwiOlwibGVmdFwiLFwiZm9udFNyY1wiOlwiL3N0YXRpYy9mb250L2ljb24udHRmXCIsXCJmb250U2l6ZVwiOlwiMjJweFwifSx7XCJ0ZXh0XCI6XCLumZNcIixcImNvbG9yXCI6XCIjMzMzMzMzXCIsXCJmbG9hdFwiOlwicmlnaHRcIixcImZvbnRTcmNcIjpcIi9zdGF0aWMvZm9udC9pY29uLnR0ZlwiLFwiZm9udFNpemVcIjpcIjIycHhcIn1dLFwic2VhcmNoSW5wdXRcIjp7XCJiYWNrZ3JvdW5kQ29sb3JcIjpcIiNGN0Y3RjdcIixcImJvcmRlclJhZGl1c1wiOlwiNHB4XCIsXCJwbGFjZWhvbGRlclwiOlwi5pCc57Si57OX5LqLXCIsXCJwbGFjZWhvbGRlckNvbG9yXCI6XCIjOTk5OTk5XCJ9fX0sXCJwYWdlcy9pbmZvL2luZm9cIjp7fX0sXCJnbG9iYWxTdHlsZVwiOntcIm5hdmlnYXRpb25CYXJUZXh0U3R5bGVcIjpcImJsYWNrXCIsXCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLns5fkuovnmb7np5FcIixcIm5hdmlnYXRpb25CYXJCYWNrZ3JvdW5kQ29sb3JcIjpcIiNGOEY4RjhcIixcImJhY2tncm91bmRDb2xvclwiOlwiI0Y4RjhGOFwifX0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///7\n");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default = { \"pages\": { \"pages/index/index\": { \"titleNView\": { \"backgroundColor\": \"#ffffff\", \"buttons\": [{ \"text\": \"\", \"color\": \"#FF971B\", \"float\": \"left\", \"fontSrc\": \"/static/font/icon.ttf\", \"fontSize\": \"22px\" }, { \"text\": \"\", \"color\": \"#333333\", \"float\": \"right\", \"fontSrc\": \"/static/font/icon.ttf\", \"fontSize\": \"22px\" }], \"searchInput\": { \"backgroundColor\": \"#F7F7F7\", \"borderRadius\": \"4px\", \"placeholder\": \"搜索糗事\", \"placeholderColor\": \"#999999\" } } }, \"pages/info/info\": {}, \"components/card_list/card_list\": {} }, \"globalStyle\": { \"navigationBarTextStyle\": \"black\", \"navigationBarTitleText\": \"糗事百科\", \"navigationBarBackgroundColor\": \"#F8F8F8\", \"backgroundColor\": \"#F8F8F8\" } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJzR0FBZSxFQUFDLFNBQVEsRUFBQyxxQkFBb0IsRUFBQyxjQUFhLEVBQUMsbUJBQWtCLFNBQW5CLEVBQTZCLFdBQVUsQ0FBQyxFQUFDLFFBQU8sR0FBUixFQUFZLFNBQVEsU0FBcEIsRUFBOEIsU0FBUSxNQUF0QyxFQUE2QyxXQUFVLHVCQUF2RCxFQUErRSxZQUFXLE1BQTFGLEVBQUQsRUFBbUcsRUFBQyxRQUFPLEdBQVIsRUFBWSxTQUFRLFNBQXBCLEVBQThCLFNBQVEsT0FBdEMsRUFBOEMsV0FBVSx1QkFBeEQsRUFBZ0YsWUFBVyxNQUEzRixFQUFuRyxDQUF2QyxFQUE4TyxlQUFjLEVBQUMsbUJBQWtCLFNBQW5CLEVBQTZCLGdCQUFlLEtBQTVDLEVBQWtELGVBQWMsTUFBaEUsRUFBdUUsb0JBQW1CLFNBQTFGLEVBQTVQLEVBQWQsRUFBckIsRUFBc1ksbUJBQWtCLEVBQXhaLEVBQTJaLGtDQUFpQyxFQUE1YixFQUFULEVBQXljLGVBQWMsRUFBQywwQkFBeUIsT0FBMUIsRUFBa0MsMEJBQXlCLE1BQTNELEVBQWtFLGdDQUErQixTQUFqRyxFQUEyRyxtQkFBa0IsU0FBN0gsRUFBdmQsRSIsImZpbGUiOiI3LmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wicGFnZXNcIjp7XCJwYWdlcy9pbmRleC9pbmRleFwiOntcInRpdGxlTlZpZXdcIjp7XCJiYWNrZ3JvdW5kQ29sb3JcIjpcIiNmZmZmZmZcIixcImJ1dHRvbnNcIjpbe1widGV4dFwiOlwi7piJXCIsXCJjb2xvclwiOlwiI0ZGOTcxQlwiLFwiZmxvYXRcIjpcImxlZnRcIixcImZvbnRTcmNcIjpcIi9zdGF0aWMvZm9udC9pY29uLnR0ZlwiLFwiZm9udFNpemVcIjpcIjIycHhcIn0se1widGV4dFwiOlwi7pmTXCIsXCJjb2xvclwiOlwiIzMzMzMzM1wiLFwiZmxvYXRcIjpcInJpZ2h0XCIsXCJmb250U3JjXCI6XCIvc3RhdGljL2ZvbnQvaWNvbi50dGZcIixcImZvbnRTaXplXCI6XCIyMnB4XCJ9XSxcInNlYXJjaElucHV0XCI6e1wiYmFja2dyb3VuZENvbG9yXCI6XCIjRjdGN0Y3XCIsXCJib3JkZXJSYWRpdXNcIjpcIjRweFwiLFwicGxhY2Vob2xkZXJcIjpcIuaQnOe0ouezl+S6i1wiLFwicGxhY2Vob2xkZXJDb2xvclwiOlwiIzk5OTk5OVwifX19LFwicGFnZXMvaW5mby9pbmZvXCI6e30sXCJjb21wb25lbnRzL2NhcmRfbGlzdC9jYXJkX2xpc3RcIjp7fX0sXCJnbG9iYWxTdHlsZVwiOntcIm5hdmlnYXRpb25CYXJUZXh0U3R5bGVcIjpcImJsYWNrXCIsXCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLns5fkuovnmb7np5FcIixcIm5hdmlnYXRpb25CYXJCYWNrZ3JvdW5kQ29sb3JcIjpcIiNGOEY4RjhcIixcImJhY2tncm91bmRDb2xvclwiOlwiI0Y4RjhGOFwifX0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///7\n");
 
 /***/ }),
 /* 8 */
-/*!*********************************************************************!*\
-  !*** C:/Users/Acer/Desktop/larry_uniapp/pages.json?{"type":"stat"} ***!
-  \*********************************************************************/
+/*!********************************************************!*\
+  !*** E:/仿糗事百科/larry_uniapp/pages.json?{"type":"stat"} ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

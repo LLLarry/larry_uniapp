@@ -1,0 +1,41 @@
+
+.tabBar_swiper .scroll-view{
+	white-space: nowrap;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	overflow: auto;
+}
+.tabBar_swiper .scroll-view .scroll-view-item {
+	display: inline-block;
+	padding: 24rpx 42rpx;
+	font-size: 28rpx;
+	font-weight: bold;
+	color: #8e8e8e;
+}
+.tabBar_swiper .uni-scroll-view {
+	overflow: scroll !important;
+}
+.tabBar_swiper .active .name{
+	color: #000000;
+	position:relative;
+}
+.tabBar_swiper .active .name:after {
+	content: '';
+	height: 8rpx;
+	background-color: #FEDE33;
+	border-radius: 8rpx;
+	position:absolute;
+	left: 0;
+	right: 0;
+	bottom: -2rpx;
+	z-index: 5;
+}
+/* ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent; 
+  
+} */
+

@@ -24,5 +24,8 @@
       "placeholderColor": "#999999"
     }
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "tab-bar_swiper": "/components/tabBar_swiper/tabBar_swiper",
+    "card_list": "/components/card_list/card_list"
+  }
 }

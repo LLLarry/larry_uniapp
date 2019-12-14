@@ -37,7 +37,11 @@
 			"style": {
 			}
 		}
-	],
+	    ,{
+            "path" : "components/card_list/card_list",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "糗事百科",
