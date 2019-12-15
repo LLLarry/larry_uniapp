@@ -1,0 +1,7 @@
+
+.pullText {
+	text-align: center;
+	padding: 15rpx 0;
+	color: #AAAAAA;
+}
+

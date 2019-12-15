@@ -11,7 +11,7 @@ var __WXML_GLOBAL__ = {
 };
 var $gwx;
 
-/*v0.5vv_20190312_syb_scopedata*/window.__wcc_version__='v0.5vv_20190312_syb_scopedata';window.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
+/*v0.5vv_20181221_syb_scopedata*/window.__wcc_version__='v0.5vv_20181221_syb_scopedata';window.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
 var $gwxc
 var $gaic={}
 $gwx=function(path,global){
@@ -1112,6 +1112,14 @@ function gz$gwx_2(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'pullText'])
+Z([a,[[7],[3,'pullText']]])
+})(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
+}
+function gz$gwx_3(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
+__WXML_GLOBAL__.ops_cached.$gwx_3=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'tabBar_swiper'])
 Z([3,'scroll-view'])
 Z([1,true])
@@ -1124,11 +1132,11 @@ Z([[4],[[5],[[5],[1,'scroll-view-item']],[[2,'?:'],[[2,'=='],[[7],[3,'i']],[[7],
 Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'toggleItem']],[[4],[[5],[[7],[3,'i']]]]]]]]]]]])
 Z([3,'name'])
 Z([a,[[6],[[7],[3,'item']],[3,'name']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
+})(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
-function gz$gwx_3(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
-__WXML_GLOBAL__.ops_cached.$gwx_3=[];
+function gz$gwx_4(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
+__WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'index'])
 Z([[7],[3,'activeIndex']])
@@ -1145,30 +1153,33 @@ Z([3,'i'])
 Z([3,'item'])
 Z([[7],[3,'conentList']])
 Z(z[11])
-Z([1,true])
+Z(z[3])
+Z([[4],[[5],[[4],[[5],[[5],[1,'scrolltolower']],[[4],[[5],[[4],[[5],[[5],[[5],[1,'handlePull']],[[4],[[5],[[5],[1,'$0']],[[7],[3,'i']]]]],[[4],[[5],[[4],[[5],[[4],[[5],[[5],[[5],[1,'conentList']],[1,'']],[[7],[3,'i']]]]]]]]]]]]]]]])
 Z(z[10])
+Z([3,'j'])
+Z([3,'jtem'])
+Z([[6],[[7],[3,'item']],[3,'list']])
+Z(z[18])
 Z(z[2])
-Z([[2,'+'],[1,'2-'],[[7],[3,'i']]])
+Z([[7],[3,'jtem']])
+Z([[2,'+'],[[2,'+'],[[2,'+'],[1,'2-'],[[7],[3,'i']]],[1,'-']],[[7],[3,'j']]])
 Z(z[2])
+Z([[6],[[7],[3,'item']],[3,'pullText']])
 Z([[2,'+'],[1,'3-'],[[7],[3,'i']]])
-Z(z[2])
-Z([[2,'+'],[1,'4-'],[[7],[3,'i']]])
-Z(z[2])
-Z([[2,'+'],[1,'5-'],[[7],[3,'i']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
+})(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
-function gz$gwx_4(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
-__WXML_GLOBAL__.ops_cached.$gwx_4=[];
+function gz$gwx_5(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
+__WXML_GLOBAL__.ops_cached.$gwx_5=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'info'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
+})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./components/card_list/card_list.wxml','./components/tabBar_swiper/tabBar_swiper.wxml','./pages/index/index.wxml','./pages/info/info.wxml'];d_[x[0]]={}
+var x=['./components/card_list/card_list.wxml','./components/loading_more/loading_more.wxml','./components/tabBar_swiper/tabBar_swiper.wxml','./pages/index/index.wxml','./pages/info/info.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=_n('view')
@@ -1299,22 +1310,10 @@ d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
 var oNB=_n('view')
-_rz(z,oNB,'class',0,e,s,gg)
-var cOB=_mz(z,'scroll-view',['class',1,'scrollX',1],[],e,s,gg)
-var oPB=_v()
+var cOB=_n('view')
+_rz(z,cOB,'class',0,e,s,gg)
+var oPB=_oz(z,1,e,s,gg)
 _(cOB,oPB)
-var lQB=function(tSB,aRB,eTB,gg){
-var oVB=_mz(z,'view',['bindtap',7,'class',1,'data-event-opts',2],[],tSB,aRB,gg)
-var xWB=_n('view')
-_rz(z,xWB,'class',10,tSB,aRB,gg)
-var oXB=_oz(z,11,tSB,aRB,gg)
-_(xWB,oXB)
-_(oVB,xWB)
-_(eTB,oVB)
-return eTB
-}
-oPB.wxXCkey=2
-_2z(z,5,lQB,e,s,gg,oPB,'item','i','id')
 _(oNB,cOB)
 _(r,oNB)
 return r
@@ -1323,45 +1322,73 @@ e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
 d_[x[2]]={}
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
-var cZB=_n('view')
-_rz(z,cZB,'class',0,e,s,gg)
-var h1B=_mz(z,'tab-bar_swiper',['aIndex',1,'bind:__l',1,'bind:childToFather',2,'data-event-opts',3,'vueId',4],[],e,s,gg)
+var aRB=_n('view')
+_rz(z,aRB,'class',0,e,s,gg)
+var tSB=_mz(z,'scroll-view',['class',1,'scrollX',1],[],e,s,gg)
+var eTB=_v()
+_(tSB,eTB)
+var bUB=function(xWB,oVB,oXB,gg){
+var cZB=_mz(z,'view',['bindtap',7,'class',1,'data-event-opts',2],[],xWB,oVB,gg)
+var h1B=_n('view')
+_rz(z,h1B,'class',10,xWB,oVB,gg)
+var o2B=_oz(z,11,xWB,oVB,gg)
+_(h1B,o2B)
 _(cZB,h1B)
-var o2B=_mz(z,'swiper',['bindchange',6,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
-var c3B=_v()
-_(o2B,c3B)
-var o4B=function(a6B,l5B,t7B,gg){
-var b9B=_n('swiper-item')
-var o0B=_mz(z,'scroll-view',['scrollY',15,'style',1],[],a6B,l5B,gg)
-var xAC=_mz(z,'card_list',['bind:__l',17,'vueId',1],[],a6B,l5B,gg)
-_(o0B,xAC)
-var oBC=_mz(z,'card_list',['bind:__l',19,'vueId',1],[],a6B,l5B,gg)
-_(o0B,oBC)
-var fCC=_mz(z,'card_list',['bind:__l',21,'vueId',1],[],a6B,l5B,gg)
-_(o0B,fCC)
-var cDC=_mz(z,'card_list',['bind:__l',23,'vueId',1],[],a6B,l5B,gg)
-_(o0B,cDC)
-_(b9B,o0B)
-_(t7B,b9B)
-return t7B
+_(oXB,cZB)
+return oXB
 }
-c3B.wxXCkey=4
-_2z(z,13,o4B,e,s,gg,c3B,'item','i','i')
-_(cZB,o2B)
-_(r,cZB)
+eTB.wxXCkey=2
+_2z(z,5,bUB,e,s,gg,eTB,'item','i','id')
+_(aRB,tSB)
+_(r,aRB)
 return r
 }
 e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
 d_[x[3]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
-var oFC=_n('view')
-var cGC=_oz(z,0,e,s,gg)
-_(oFC,cGC)
-_(r,oFC)
+var o4B=_n('view')
+_rz(z,o4B,'class',0,e,s,gg)
+var l5B=_mz(z,'tab-bar-swiper',['aIndex',1,'bind:__l',1,'bind:childToFather',2,'data-event-opts',3,'vueId',4],[],e,s,gg)
+_(o4B,l5B)
+var a6B=_mz(z,'swiper',['bindchange',6,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
+var t7B=_v()
+_(a6B,t7B)
+var e8B=function(o0B,b9B,xAC,gg){
+var fCC=_n('swiper-item')
+var cDC=_mz(z,'scroll-view',['scrollY',-1,'bindscrolltolower',15,'data-event-opts',1,'style',2],[],o0B,b9B,gg)
+var hEC=_v()
+_(cDC,hEC)
+var oFC=function(oHC,cGC,lIC,gg){
+var tKC=_mz(z,'card-list',['bind:__l',22,'list',1,'vueId',2],[],oHC,cGC,gg)
+_(lIC,tKC)
+return lIC
+}
+hEC.wxXCkey=4
+_2z(z,20,oFC,o0B,b9B,gg,hEC,'jtem','j','j')
+var eLC=_mz(z,'loading-more',['bind:__l',25,'pullText',1,'vueId',2],[],o0B,b9B,gg)
+_(cDC,eLC)
+_(fCC,cDC)
+_(xAC,fCC)
+return xAC
+}
+t7B.wxXCkey=4
+_2z(z,13,e8B,e,s,gg,t7B,'item','i','i')
+_(o4B,a6B)
+_(r,o4B)
 return r
 }
 e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[4]]={}
+var m4=function(e,s,r,gg){
+var z=gz$gwx_5()
+var oNC=_n('view')
+var xOC=_oz(z,0,e,s,gg)
+_(oNC,xOC)
+_(r,oNC)
+return r
+}
+e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -1488,6 +1515,9 @@ __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['components/card_list/card_list.wxss']=setCssToHead([".",[1],"card_list .",[1],"card { padding: ",[0,24],"; border-bottom: ",[0,2]," solid #eee; }\n.",[1],"card_list .",[1],"card .",[1],"top{ display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; margin-bottom: ",[0,27],"; }\n.",[1],"card_list .",[1],"card .",[1],"top .",[1],"userInfo { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }\n.",[1],"card_list .",[1],"card .",[1],"top .",[1],"userInfo wx-image { width: ",[0,90],"; height: ",[0,90],"; border-radius: 100%; }\n.",[1],"card_list .",[1],"card .",[1],"top .",[1],"userInfo wx-text{ color: #999999; margin-left: ",[0,10],"; }\n.",[1],"card_list .",[1],"card .",[1],"top .",[1],"add { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; color: #000; background-color: #f4f4f4; padding: ",[0,5]," ",[0,15],"; border-radius: ",[0,4],"; }\n.",[1],"card_list .",[1],"card .",[1],"title { font-size: ",[0,32],"; color: #000; }\n.",[1],"card_list .",[1],"card .",[1],"middle { height: ",[0,380],"; margin-top: ",[0,48],"; position: relative; }\n.",[1],"card_list .",[1],"card .",[1],"middle .",[1],"play { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); color: rgba(255,255,255,.85); z-index: 1; }\n.",[1],"card_list .",[1],"card .",[1],"middle .",[1],"play_info { position: absolute; right: ",[0,10],"; bottom: ",[0,10],"; z-index: 1; line-height: ",[0,50],"; background-color: rgba(0,0,0,.5); color: #fff; padding: 0 ",[0,10],"; border-radius: ",[0,50],"; font-size: ",[0,22]," }\n.",[1],"card_list .",[1],"card .",[1],"middle .",[1],"play_info .",[1],"play_info_item wx-text:first-child { margin-right: ",[0,10],"; }\n.",[1],"card_list .",[1],"card .",[1],"middle .",[1],"play\x3ewx-view { font-size: ",[0,120],"; }\n.",[1],"card_list .",[1],"card .",[1],"middle wx-image { width: 100%; height: ",[0,380],"; border-radius: ",[0,10],"; }\n.",[1],"card_list .",[1],"card .",[1],"bottom{ display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; padding: ",[0,24]," 0; }\n.",[1],"card_list .",[1],"card .",[1],"bottom\x3ewx-view { display: -webkit-box; display: -webkit-flex; display: flex; }\n.",[1],"card_list .",[1],"card .",[1],"bottom .",[1],"icon_item{ display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }\n.",[1],"card_list .",[1],"card .",[1],"bottom .",[1],"icon_item\x3ewx-view { color: #d5d5d5; }\n.",[1],"card_list .",[1],"card .",[1],"bottom .",[1],"icon_item\x3ewx-view:nth-child(1) { margin-right: ",[0,15],"; }\n.",[1],"card_list .",[1],"card .",[1],"bottom .",[1],"icon_item:nth-child(2){ margin-left: ",[0,20],"; }\n",],undefined,{path:"./components/card_list/card_list.wxss"});    
 __wxAppCode__['components/card_list/card_list.wxml']=$gwx('./components/card_list/card_list.wxml');
+
+__wxAppCode__['components/loading_more/loading_more.wxss']=setCssToHead([".",[1],"pullText { text-align: center; padding: ",[0,15]," 0; color: #AAAAAA; }\n",],undefined,{path:"./components/loading_more/loading_more.wxss"});    
+__wxAppCode__['components/loading_more/loading_more.wxml']=$gwx('./components/loading_more/loading_more.wxml');
 
 __wxAppCode__['components/tabBar_swiper/tabBar_swiper.wxss']=setCssToHead([".",[1],"tabBar_swiper .",[1],"scroll-view{ white-space: nowrap; width: 100%; display: -webkit-box; display: -webkit-flex; display: flex; overflow: auto; }\n.",[1],"tabBar_swiper .",[1],"scroll-view .",[1],"scroll-view-item { display: inline-block; padding: ",[0,24]," ",[0,42],"; font-size: ",[0,28],"; font-weight: bold; color: #8e8e8e; }\n.",[1],"tabBar_swiper .",[1],"uni-scroll-view { overflow: scroll !important; }\n.",[1],"tabBar_swiper .",[1],"active .",[1],"name{ color: #000000; position:relative; }\n.",[1],"tabBar_swiper .",[1],"active .",[1],"name:after { content: \x27\x27; height: ",[0,8],"; background-color: #FEDE33; border-radius: ",[0,8],"; position:absolute; left: 0; right: 0; bottom: ",[0,-2],"; z-index: 5; }\n",],undefined,{path:"./components/tabBar_swiper/tabBar_swiper.wxss"});    
 __wxAppCode__['components/tabBar_swiper/tabBar_swiper.wxml']=$gwx('./components/tabBar_swiper/tabBar_swiper.wxml');

@@ -25,7 +25,8 @@
     }
   },
   "usingComponents": {
-    "tab-bar_swiper": "/components/tabBar_swiper/tabBar_swiper",
-    "card_list": "/components/card_list/card_list"
+    "tab-bar-swiper": "/components/tabBar_swiper/tabBar_swiper",
+    "card-list": "/components/card_list/card_list",
+    "loading-more": "/components/loading_more/loading_more"
   }
 }

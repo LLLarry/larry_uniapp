@@ -198,4 +198,7 @@
 .icon-icon_im_keyboard:before {
   content: "\EB97";
 }
+view {
+	font-size: 28rpx;
+}
 

@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/info/info"
+    "pages/info/info",
+    "components/card_list/card_list"
   ],
   "subPackages": [],
   "window": {
@@ -11,14 +12,14 @@
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
-    "color": "black",
+    "color": "#B7B7B7",
     "backgroundColor": "#FFFFFF",
     "borderStyle": "black",
     "selectedColor": "#FFDF34",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "动态",
+        "text": "糗事",
         "iconPath": "/static/home.png",
         "selectedIconPath": "/static/home_act.png"
       },
