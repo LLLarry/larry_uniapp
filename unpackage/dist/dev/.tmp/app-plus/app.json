@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/search/search",
-    "pages/info/info"
+    "pages/info/info",
+    "pages/add-input/add-input"
   ],
   "window": {
     "navigationBarTextStyle": "black",

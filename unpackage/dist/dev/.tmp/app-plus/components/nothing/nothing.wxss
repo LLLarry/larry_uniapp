@@ -9,7 +9,7 @@
 
  
 /* 加入scoped是为了避免其他样式对其污染 */
-.nothing.data-v-19c38a00 {
+.nothing.data-v-20b20e03 {
 		position: absolute;
 		left: 0;
 		right: 0;
@@ -25,7 +25,7 @@
 		-webkit-justify-content: center;
 		        justify-content: center;
 }
-.nothing image.data-v-19c38a00 {
+.nothing image.data-v-20b20e03 {
 		width: 50%;
 }
 
