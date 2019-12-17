@@ -21,12 +21,14 @@
       "backgroundColor": "#F7F7F7",
       "borderRadius": "4px",
       "placeholder": "搜索糗事",
-      "placeholderColor": "#999999"
+      "placeholderColor": "#999999",
+      "disabled": true
     }
   },
   "usingComponents": {
     "tab-bar-swiper": "/components/tabBar_swiper/tabBar_swiper",
     "card-list": "/components/card_list/card_list",
-    "loading-more": "/components/loading_more/loading_more"
+    "loading-more": "/components/loading_more/loading_more",
+    "nothing": "/components/nothing/nothing"
   }
 }

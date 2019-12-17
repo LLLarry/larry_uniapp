@@ -26,21 +26,45 @@
 							"backgroundColor": "#F7F7F7",
 							"borderRadius": "4px",
 							"placeholder": "搜索糗事",
-							"placeholderColor": "#999999"
+							"placeholderColor": "#999999",
+							"disabled": true
 						}
 					}
 				}
 			}
 		},
 		{
+			"path": "pages/search/search", //搜索页面
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": false,
+						"backgroundColor":"#ffffff",
+						"buttons": [
+							{
+								"text": "返回",
+								"color": "#333333",
+								"float": "right",
+								"fontSize": "16px"
+							}
+						],
+						"searchInput": {
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "4px",
+							"placeholder": "搜索糗事",
+							"placeholderColor": "#999999"
+						}
+					}
+				}
+			}
+		},
+		
+		{
 			"path": "pages/info/info",
 			"style": {
 			}
 		}
-	    ,{
-            "path" : "components/card_list/card_list",
-            "style" : {}
-        }
+
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

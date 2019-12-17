@@ -124,6 +124,9 @@
 .card_list .card .bottom .icon_item>view {
 	color: #d5d5d5;
 }
+.card_list .card .bottom .icon_item.active>view {
+	color: #FEDE33;
+}
 .card_list .card .bottom .icon_item>view:nth-child(1) {
 	margin-right: 15rpx;
 }

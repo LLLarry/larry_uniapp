@@ -1,0 +1,21 @@
+{
+  "titleNView": {
+    "autoBackButton": false,
+    "backgroundColor": "#ffffff",
+    "buttons": [
+      {
+        "text": "返回",
+        "color": "#333333",
+        "float": "right",
+        "fontSize": "16px"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#F7F7F7",
+      "borderRadius": "4px",
+      "placeholder": "搜索糗事",
+      "placeholderColor": "#999999"
+    }
+  },
+  "usingComponents": {}
+}

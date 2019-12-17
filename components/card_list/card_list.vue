@@ -1,18 +1,18 @@
 <template>
-	<view class="card_list">
+	<view class="card_list animated fadeInLeft fast">
 		<view class="card">
 			<view class="top">
 				<view class="userInfo">
-					<image src="/static/demo/demo5.jpg" mode="widthFix"></image>
-					<text>鲁大师</text>
+					<image :src="list.userpic" mode="widthFix"></image>
+					<text>{{list.username}}</text>
 				</view>
-				<view class="add">
+				<view class="add" v-if="!list.isguanzhu" @click="handleIsSave(list)">
 					<view class="icon iconfont">&#xe684;</view>
 					<text>关注</text>
 				</view>
 			</view>
 			<text class="title">
-				走出去，才发现你跟别人差的不是一点半点
+				{{list.title}}
 			</text>
 			<view class="middle">
 				<view class="play">
@@ -24,27 +24,27 @@
 						<text>2:47</text>
 					</view>
 				</view>
-				<image src="../../static/demo/datapic/11.jpg" mode="widthFix"></image>
+				<image :src="list.titlepic" mode="widthFix"></image>
 			</view>
 			<view class="bottom">
 				<view class="left">
-					<view class="icon_item">
+					<view class="icon_item" :class="{active: list.infonum &&list.infonum.index == 1}" @tap="handleLeftIcon(list,1)">
 						<view class="icon_list icon iconfont">&#xe650;</view>
-						<view class="icon_list">570</view>
+						<view class="icon_list">{{list.infonum && list.infonum.dingnum}}</view>
 					</view>
-					<view class="icon_item">
+					<view class="icon_item" :class="{active: list.infonum && list.infonum.index == 2}" @tap="handleLeftIcon(list,2)">
 						<view class="icon_list icon iconfont">&#xe600;</view>
-						<view class="icon_list">853</view>
+						<view class="icon_list">{{list.infonum && list.infonum.cainum}}</view>
 					</view>
 				</view>
 				<view class="right">
 					<view class="icon_item">
 						<view class="icon_list icon iconfont">&#xe60f;</view>
-						<view class="icon_list">570</view>
+						<view class="icon_list">{{list.commentnum}}</view>
 					</view>
 					<view class="icon_item">
 						<view class="icon_list icon iconfont">&#xe627;</view>
-						<view class="icon_list">853</view>
+						<view class="icon_list">{{list.sharenum}}</view>
 					</view>
 				</view>
 			</view>
@@ -56,13 +56,71 @@
 	export default {
 		data() {
 			return {
+				list: {}
+				/* list:
+					{
+						userpic:"../../static/demo/userpic/12.jpg",
+						username:"昵称",
+						isguanzhu:false,
+						title:"走出去，才发现你跟别人差的不是一点半点",
+						type:"img", // img:图文,video:视频
+						titlepic:"../../static/demo/datapic/11.jpg",
+						infonum:{
+							index:0,//0:没有操作，1:顶,2:踩；
+							dingnum:11,
+							cainum:11,
+						},
+						commentnum:10,
+						sharenum:10,
+					}, */
 				
 			}
 		},
+		props: ['list1'],
+		created(){
+			this.list= this.list1 //拿变量将通过props传过来的数据接收一下，放在list里面，不然的话uniapp原生app不能改变里面数据
+		},
 		methods: {
-			
+			handleIsSave(list){ //点击是否收藏
+				list.isguanzhu= true
+				uni.showToast({
+					title: '关注成功'
+				});
+			},
+			handleLeftIcon(list,from){
+				switch(from){
+					case 1:
+					/* 点的顶 */
+					if(list.infonum.index == 1){
+						list.infonum.index= 0
+						list.infonum.dingnum= list.infonum.dingnum-1
+					}else if(list.infonum.index == 2){
+						list.infonum.index= 1
+						list.infonum.cainum= list.infonum.cainum-1
+						list.infonum.dingnum= list.infonum.dingnum+1
+					}else{
+						list.infonum.index= 1
+						list.infonum.dingnum= list.infonum.dingnum+1
+					}
+					break;
+					case 2:
+					/* 点的踩*/
+					if(list.infonum.index == 2){
+						list.infonum.index= 0
+						list.infonum.cainum= list.infonum.cainum-1
+					}else if(list.infonum.index == 1){
+						list.infonum.index= 2
+						list.infonum.cainum= list.infonum.cainum+1
+						list.infonum.dingnum= list.infonum.dingnum-1
+					}else{
+						list.infonum.index= 2
+						list.infonum.cainum= list.infonum.cainum+1
+					}
+					break;
+				}
 		}
-	}
+	},
+}
 </script>
 
 <style>
@@ -162,6 +220,9 @@
 }
 .card_list .card .bottom .icon_item>view {
 	color: #d5d5d5;
+}
+.card_list .card .bottom .icon_item.active>view {
+	color: #FEDE33;
 }
 .card_list .card .bottom .icon_item>view:nth-child(1) {
 	margin-right: 15upx;

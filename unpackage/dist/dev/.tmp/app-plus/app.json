@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/info/info",
-    "components/card_list/card_list"
+    "pages/search/search",
+    "pages/info/info"
   ],
   "window": {
     "navigationBarTextStyle": "black",

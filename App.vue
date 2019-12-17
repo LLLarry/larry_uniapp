@@ -15,6 +15,7 @@
 <style>
 	/*每个页面公共css */
 	@import "./common/icon.css";
+	@import "./common/animate.css";
 	view {
 		font-size: 28upx;
 	}
